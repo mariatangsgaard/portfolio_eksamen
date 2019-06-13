@@ -11,7 +11,7 @@ body {
     padding: 15px 15px 0px 15px;
     margin: 15px 15px 0px 15px;
     width: 900px;
-    height: 285px;
+    height: 290px;
     border-top: 2px solid black;
     position: relative;
     left: 400px;
@@ -19,6 +19,12 @@ body {
 
 .collapsible img {
     cursor: pointer;
+}
+
+figure {
+    position: absolute;
+    top: 2px;
+    left: 400px;
 }
 
 .content {
