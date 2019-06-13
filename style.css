@@ -1,3 +1,17 @@
+/* -------- INDHOLDS FORTEGNELSE -----------
+
+1. GENERELLE INDSTILLINGER
+2. OPBYGNING AF PORTFOLIE SIDE
+3. TEKST & FONTE
+4.
+
+
+
+
+*/
+
+
+
 body {
     background-color: #ffc2cc;
 }
@@ -64,7 +78,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'VT323';
     float: right;
 
