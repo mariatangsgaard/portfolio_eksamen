@@ -1,13 +1,16 @@
-.sectionwrapper_opgaver {
-    background-color: pink;
+body {
+    background-color: #ffc2cc;
 }
 
 .collapsible {
     background-color: #f7f3f0;
-    padding: 15px;
-    margin: 15px;
-    width: 500px;
+    padding: 15px 15px 0px 15px;
+    margin: 15px 15px 0px 15px;
+    width: 900px;
     height: 250px;
+    border-top: 2px solid black;
+    position: relative;
+    left: 400px;
 }
 
 .collapsible img {
@@ -20,8 +23,26 @@
 
 .fold_ud {
     background-color: #f7f3f0;
-    width: 500px;
+    width: 900px;
     height: 300px;
-    padding: 15px;
-    margin: 15px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px;
+    position: relative;
+    left: 400px;
+}
+
+h1 {
+    font-family: 'Faster One';
+}
+
+
+h2 {
+    font-size: 2rem;
+    font-family: 'Pragati Narrow';
+
+}
+
+h3 {
+    font-size: 1rem;
+    font-family: 'VT323';
 }
