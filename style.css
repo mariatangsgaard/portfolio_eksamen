@@ -1,0 +1,27 @@
+.sectionwrapper_opgaver {
+    background-color: pink;
+}
+
+.collapsible {
+    background-color: #f7f3f0;
+    padding: 15px;
+    margin: 15px;
+    width: 500px;
+    height: 250px;
+}
+
+.collapsible img {
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+}
+
+.fold_ud {
+    background-color: #f7f3f0;
+    width: 500px;
+    height: 300px;
+    padding: 15px;
+    margin: 15px;
+}
