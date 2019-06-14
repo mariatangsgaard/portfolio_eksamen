@@ -41,6 +41,11 @@ figure {
     left: 400px;
 }
 
+figure img {
+    width: 260px;
+    height: 300px;
+}
+
 .content {
     display: none;
 }
