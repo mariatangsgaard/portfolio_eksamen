@@ -84,7 +84,7 @@ figure img {
 
 .sectionwrapper_cv {
     background-color: #f7f3f0;
-    height: 10000px;
+    height: 3000px;
     width: 100%;
 }
 
@@ -184,6 +184,25 @@ ul {
 .content_kurser {
     display: none;
     height: 800px;
+}
+
+.kontakt {
+    position: relative;
+    left: 500px;
+    height: 400px;
+
+}
+
+.kontakt h1 {
+    font-size: 12rem;
+    font-family: 'Pragati Narrow';
+    margin: 0;
+}
+
+.kontakt h2 {
+    position: relative;
+    left: 200px;
+    font-size: 3rem;
 }
 
 /* ----------- 4. TEKST & FONTE --------------*/
