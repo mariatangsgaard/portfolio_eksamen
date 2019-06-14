@@ -12,8 +12,10 @@
 
 
 
+
 body {
     background-color: #ffc2cc;
+    height: 100%;
 }
 
 .sectionwrapper_opgaver {
@@ -25,7 +27,7 @@ body {
     padding: 15px 15px 0px 15px;
     margin: 15px 15px 0px 15px;
     width: 900px;
-    height: 290px;
+    height: 320px;
     border-top: 2px solid black;
     position: relative;
     left: 400px;
@@ -42,8 +44,8 @@ figure {
 }
 
 figure img {
-    width: 260px;
-    height: 300px;
+    width: 240px;
+    height: 280px;
 }
 
 .content {
@@ -85,6 +87,11 @@ h3 {
 h4 {
     font-size: 1.2rem;
     font-family: 'VT323';
-    float: right;
+    position: relative;
+    left: 800px;
 
+}
+
+footer {
+    font-family: 'Faster One';
 }
