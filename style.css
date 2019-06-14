@@ -14,9 +14,15 @@
 
 /* -------- 1. GENERELLE INDSTILLINGER -------*/
 
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #ffc2cc;
     height: 100%;
+    margin: 0;
 }
 
 footer {
@@ -82,6 +88,11 @@ figure img {
     width: 100%;
 }
 
+.sectionwrapper_cv content {
+    width: 900px;
+
+}
+
 .box {
     position: relative;
     left: 400px;
@@ -97,12 +108,12 @@ figure img {
 
 .fold_out {
     background-color: #f7f3f0;
-    width: 900px;
-    height: 1700px;
+    width: 1000px;
+    height: 1200px;
     padding: 0px 15px 0px 15px;
     margin: 0px 15px 0px 15px;
     position: relative;
-    left: 400px;
+    left: 380px;
 }
 
 
@@ -114,12 +125,26 @@ figure img {
     padding: 0px 15px 0px 15px;
     margin: 0px 15px 0px 15px;
     position: relative;
-    left: 400px;
+
 }
 
+.collapsible h2 {
+    margin: 15px 0px 30px 0px;
+}
 
 .container h3 {
     font-size: 2rem;
+    margin: 0px;
+}
+
+.container h4 {
+    margin: 5px 0px 0px 0px;
+}
+
+.container h5 {
+    font-family: 'Pragati Narrow';
+    font-size: 2rem;
+    margin: 5px 0px 0px 0px;
 }
 
 
