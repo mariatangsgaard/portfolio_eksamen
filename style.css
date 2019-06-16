@@ -177,27 +177,29 @@ figure img {
 /* ----------- 4. CV --------------*/
 
 
-.sectionwrapper_cv {
+#cv {
     background-color: #f7f3f0;
     height: 3000px;
     width: 100%;
 }
 
-/*.sectionwrapper_cv content {
-    width: 100%;
-
-}*/
-
-.box {
+#cv h1 {
     position: relative;
+    font-size: 16rem;
+    font-family: 'Pragati Narrow';
+    line-height: 0px;
     left: 400px;
-    padding: 20px 0px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0xp;
 }
 
-.box h1 {
-    font-size: 10rem;
-    font-family: 'Pragati Narrow';
+.fold_out_uddannelse {
+    background-color: #f7f3f0;
+    width: 1000px;
+    height: 120px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 0px 15px;
+    position: relative;
+    left: 380px;
 }
 
 
@@ -221,15 +223,7 @@ figure img {
     left: 350px;
 }
 
-.fold_out_uddannelse {
-    background-color: #f7f3f0;
-    width: 1000px;
-    height: 120px;
-    padding: 0px 15px 0px 15px;
-    margin: 0px 15px 0px 15px;
-    position: relative;
-    left: 380px;
-}
+
 
 
 .container {
@@ -246,7 +240,7 @@ figure img {
 
 .collapsible h2 {
     margin: 80px 0px 80px 0px;
-    font-size: 5rem;
+    font-size: 10rem;
 }
 
 .container h3 {
