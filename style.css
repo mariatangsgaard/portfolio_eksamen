@@ -28,6 +28,7 @@ body {
 
 footer {
     font-family: 'Faster One';
+    color: #ffc2cc;
 }
 
 /*burgermenu*/
@@ -42,6 +43,8 @@ footer {
 #menuknap {
     display: inline-block;
     color: #ffc2cc;
+    cursor: pointer;
+
 }
 
 #menu {
@@ -59,6 +62,7 @@ nav a {
 
 a:hover {
     color: #ffc2cc;
+
 }
 
 @media only screen and (min-width: 600px) {
@@ -80,7 +84,45 @@ a:hover {
 /* ----------- 2. FORSIDE --------------*/
 
 
+#overskrift h1 {
+    font-family: 'Pragati Narrow';
+    color: black;
+    font-size: 14rem;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 
+}
+
+.row1 {
+    position: relative;
+    line-height: 5px;
+    left: 600px;
+}
+
+.row2 {
+    position: relative;
+    line-height: 290px;
+    left: 780px;
+}
+
+.row3 {
+    position: relative;
+    line-height: 0px;
+    left: 670px;
+}
+
+.row4 {
+    position: relative;
+    line-height: 180px;
+    left: 800px;
+}
+
+
+.row5 {
+    position: relative;
+    line-height: 120px;
+    left: 530px;
+}
 
 
 /* ----------- 3. PORTFOLIO --------------*/
