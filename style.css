@@ -1,10 +1,11 @@
 /* -------- INDHOLDS FORTEGNELSE -----------
 
 1. GENERELLE INDSTILLINGER
-2. OPBYGNING AF PORTFOLIO SIDE
-3. CV SIDEN
-4. TEKST & FONTE
-5.
+2. FORSIDE
+3. OPBYGNING AF PORTFOLIO SIDE
+4. CV SIDEN
+5. TEKST & FONTE
+6.
 
 
 
@@ -20,7 +21,7 @@
 }
 
 body {
-    background-color: #ffc2cc;
+    background-color: #f7f3f0;
     height: 100%;
     margin: 0;
 }
@@ -29,8 +30,60 @@ footer {
     font-family: 'Faster One';
 }
 
+/*burgermenu*/
 
-/* ----------- 2. PORTFOLIO --------------*/
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    color: #ffc2cc;
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+nav a {
+    font-family: 'Pragati Narrow';
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+a:hover {
+    color: #ffc2cc;
+}
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {}
+}
+
+
+
+/* ----------- 2. FORSIDE --------------*/
+
+
+
+
+
+/* ----------- 3. PORTFOLIO --------------*/
 
 
 .sectionwrapper_opgaver {
@@ -79,7 +132,7 @@ figure img {
 
 
 
-/* ----------- 3. CV --------------*/
+/* ----------- 4. CV --------------*/
 
 
 .sectionwrapper_cv {
@@ -205,7 +258,7 @@ ul {
     font-size: 3rem;
 }
 
-/* ----------- 4. TEKST & FONTE --------------*/
+/* ----------- 5. TEKST & FONTE --------------*/
 
 
 h1 {
