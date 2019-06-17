@@ -1,5 +1,78 @@
-/* ----------- 4. CV --------------*/
+/* -------- INDHOLDS FORTEGNELSE -----------
 
+1. GENERELLE INDSTILLINGER
+2. NAVIGATION & BURGER/MENU
+4. TEKST & FONTE
+5. MEDIAQUERY
+
+-------------------------------------------------*/
+
+
+/* -------- 1. GENERELLE INDSTILLINGER -------*/
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f3f0;
+    height: 100%;
+    margin: 0;
+}
+
+footer {
+    font-family: 'Faster One';
+    color: #ffc2cc;
+}
+
+/* -----------  2. NAVIGATION & BURGER/MENU -----------*/
+
+.hidden {
+    /*    display: none;*/
+    /*    transform: scale(0);*/
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    color: #ffc2cc;
+    cursor: pointer;
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+nav a {
+    font-family: 'Pragati Narrow';
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+a:hover {
+    color: #ffc2cc;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {}
+}
 
 
 
@@ -12,7 +85,6 @@
 .collapsible {
     height: 200px;
 }
-
 
 
 
