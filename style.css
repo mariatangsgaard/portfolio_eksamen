@@ -1,16 +1,13 @@
 /* -------- INDHOLDS FORTEGNELSE -----------
 
 1. GENERELLE INDSTILLINGER
-2. FORSIDE
-3. OPBYGNING AF PORTFOLIO SIDE
-4. CV SIDEN
-5. TEKST & FONTE
-6.
+2. NAVIGATION & BURGER/MENU
+3. FORSIDE
+3. PORTFOLIO SIDE
+4. TEKST & FONTE
+5. MEDIAQUERY
 
-
-
-
-*/
+-------------------------------------------------*/
 
 
 /* -------- 1. GENERELLE INDSTILLINGER -------*/
@@ -31,7 +28,7 @@ footer {
     color: #ffc2cc;
 }
 
-/*burgermenu*/
+/* -----------  2. NAVIGATION & BURGER/MENU -----------*/
 
 .hidden {
     /*    display: none;*/
@@ -81,7 +78,7 @@ a:hover {
 
 
 
-/* ----------- 2. FORSIDE --------------*/
+/* ----------- 3. FORSIDE --------------*/
 
 
 #overskrift h1 {
@@ -125,7 +122,7 @@ a:hover {
 }
 
 
-/* ----------- 3. PORTFOLIO --------------*/
+/* ----------- 4. PORTFOLIO --------------*/
 
 
 .sectionwrapper_opgaver {
@@ -173,132 +170,6 @@ figure img {
 }
 
 
-
-/* ----------- 4. CV --------------*/
-
-
-#cv {
-    background-color: #f7f3f0;
-    height: 3000px;
-    width: 100%;
-}
-
-
-#cv h1 {
-    position: relative;
-    font-size: 10rem;
-    font-family: 'Pragati Narrow';
-    line-height: 0px;
-    left: 400px;
-    margin: 0px 0px 0px 0xp;
-}
-
-.fold_out_uddannelse {
-    background-color: #f7f3f0;
-    width: 1000px;
-    height: 120px;
-    padding: 0px 15px 0px 15px;
-    margin: 0px 15px 0px 15px;
-    position: relative;
-    left: 380px;
-}
-
-
-.fold_out_erfaring {
-    background-color: #f7f3f0;
-    width: 900px;
-    height: 1200px;
-    padding: 0px 15px 0px 15px;
-    margin: 0px 15px 0px 15px;
-    position: relative;
-    left: 360px;
-}
-
-.fold_out {
-    background-color: #f7f3f0;
-    width: 1000px;
-    height: 800px;
-    padding: 0px 15px 0px 15px;
-    margin: 0px 15px 0px 15px;
-    position: relative;
-    left: 350px;
-}
-
-
-
-.container {
-    background-color: #f7f3f0;
-    width: 900px;
-    height: 200px;
-    border-top: 2px solid black;
-    padding: 0px 15px 0px 15px;
-    margin: 0px 15px 0px 15px;
-    position: relative;
-
-}
-
-
-.collapsible h2 {
-    margin: 80px 0px 80px 0px;
-    font-size: 5rem;
-}
-
-.container h3 {
-    font-size: 2rem;
-    margin: 0px;
-}
-
-.container h4 {
-    margin: 5px 0px 0px 0px;
-    font-size: 1.5rem;
-    position: relative;
-    left: 700px;
-}
-
-.container h5 {
-    font-family: 'Pragati Narrow';
-    font-size: 2rem;
-    margin: 5px 0px 0px 0px;
-}
-
-p {
-    font-family: 'Pragati Narrow';
-    font-size: 1.1rem;
-    margin: 7px 0px 0px 5px;
-
-}
-
-ul {
-    padding: 10px;
-}
-
-.content_kurser {
-    display: none;
-    height: 800px;
-}
-
-.kontakt {
-    position: relative;
-    left: 500px;
-    height: 400px;
-
-}
-
-#kontakt h1 {
-    position: relative;
-    font-size: 12rem;
-    font-family: 'Pragati Narrow';
-    margin: 0;
-    left: 400px;
-    line-height: 1200px;
-}
-
-#kontakt h2 {
-    position: relative;
-    left: 200px;
-    font-size: 3rem;
-}
-
 /* ----------- 5. TEKST & FONTE --------------*/
 
 
@@ -312,8 +183,6 @@ h2 {
     font-size: 4.3rem;
     font-family: 'Pragati Narrow';
     line-height: 0;
-
-
 }
 
 h3 {
@@ -321,7 +190,6 @@ h3 {
     font-family: 'Pragati Narrow';
     line-height: 0;
     font-weight: 100;
-
 }
 
 h4 {
@@ -329,5 +197,4 @@ h4 {
     font-family: 'VT323';
     position: relative;
     left: 800px;
-
 }
