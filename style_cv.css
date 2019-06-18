@@ -2,8 +2,8 @@
 
 1. GENERELLE INDSTILLINGER
 2. NAVIGATION & BURGER/MENU
-3. SELVE CV SIDEN
-4. TEKST & FONTE
+3. TEKST & FONTE
+4. SELVE CV SIDEN
 5. MEDIAQUERY
 
 -------------------------------------------------*/
@@ -18,7 +18,7 @@
 
 body {
     background-color: #f7f3f0;
-
+    width: 1400px;
     margin: 0;
 }
 
@@ -75,7 +75,59 @@ a:hover {
     #menu li {}
 }
 
-/* -------- 3. SELVE CV SIDEN-------*/
+
+
+/* -------- 3. TEKST OG FONTE-------*/
+
+h1 {
+    font-family: 'Pragati Narrow';
+    font-size: 14rem;
+    margin: 0px;
+    position: relative;
+    left: 400px;
+    line-height: 200px;
+
+}
+
+h2 {
+    font-family: 'Pragati Narrow';
+    font-size: 3rem;
+    line-height: 0;
+}
+
+h3 {
+    font-family: 'Pragati Narrow';
+    font-size: 1.7rem;
+    margin: 0px;
+    line-height: 0;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-family: 'VT323';
+    position: relative;
+    left: 700px;
+    margin: 0px;
+}
+
+h5 {
+    font-family: 'Pragati Narrow';
+    font-size: 2rem;
+    margin: 5px 0px 0px 0px;
+    font-weight: 100;
+    color: #ffc2cc;
+
+}
+
+p {
+    font-family: 'Pragati Narrow';
+    font-size: 1.1rem;
+    margin: 7px 0px 0px 5px;
+
+}
+
+/* -------- 4. SELVE CV SIDEN-------*/
 
 #cv {
     background-color: #f7f3f0;
@@ -89,6 +141,7 @@ a:hover {
     left: 400px;
     width: 900px;
     padding: 2px 0px 10px 0px;
+    margin: 0px;
 }
 
 .collapsible img {
@@ -137,60 +190,91 @@ figure img {
     height: 320px;
 }
 
-#kontakt h2,
-h3 {
+#kontakt h2 {
+    position: relative;
+    left: 700px;
+    padding: 5px;
+}
+
+#kontakt h3 {
     position: relative;
     left: 700px;
     padding: 5px;
 }
 
 
+/* ------------ 5. MEDIAQUERY ------------*/
+
+@media only screen and (min-width: 600px) {
+    #cv {
+        background-color: #f7f3f0;
+        width: 100%;
+        height: 800px;
+    }
+
+    .collapsible {
+        border-top: 2px solid black;
+        position: relative;
+        left: 400px;
+        width: 900px;
+        padding: 2px 0px 10px 0px;
+        margin: 0px;
+    }
+
+    .collapsible img {
+        cursor: pointer;
+    }
 
 
-h1 {
-    font-family: 'Pragati Narrow';
-    font-size: 14rem;
-    margin: 0px;
-    position: relative;
-    left: 400px;
-    line-height: 200px;
+    .content {
+        display: none;
+    }
 
-}
+    .container_uddannelse {
+        position: relative;
+        height: 100px;
+        left: 385px;
+        width: 900px;
+        border-top: 2px solid black;
+        margin: 10px 10px 10px 15px;
 
-h2 {
-    font-family: 'Pragati Narrow';
-    font-size: 3rem;
-    line-height: 0;
-}
+    }
 
-h3 {
-    font-family: 'Pragati Narrow';
-    font-size: 1.7rem;
-    margin: 0px;
-    line-height: 0;
-    font-weight: 700;
-}
+    .container {
+        position: relative;
+        left: 385px;
+        height: 200px;
+        width: 900px;
+        border-top: 2px solid black;
+        margin: 10px 10px 10px 15px;
 
-h4 {
-    font-size: 1.2rem;
-    font-family: 'VT323';
-    position: relative;
-    left: 700px;
-    margin: 0px;
-}
+    }
 
-h5 {
-    font-family: 'Pragati Narrow';
-    font-size: 2rem;
-    margin: 5px 0px 0px 0px;
-    font-weight: 100;
-    color: #ffc2cc;
+    #kontakt {
+        width: 100%;
+        height: 800px;
+    }
 
-}
+    figure {
+        position: absolute;
+        left: 370px;
+    }
 
-p {
-    font-family: 'Pragati Narrow';
-    font-size: 1.1rem;
-    margin: 7px 0px 0px 5px;
+    figure img {
+        width: 260px;
+        height: 320px;
+    }
+
+    #kontakt h2 {
+        position: relative;
+        left: 700px;
+        padding: 5px;
+    }
+
+    #kontakt h3 {
+        position: relative;
+        left: 700px;
+        padding: 5px;
+    }
 
 }
