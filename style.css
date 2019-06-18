@@ -2,15 +2,14 @@
 
 1. GENERELLE INDSTILLINGER
 2. NAVIGATION & BURGER/MENU
-3. FORSIDE
 3. PORTFOLIO SIDE
 4. TEKST & FONTE
 5. MEDIAQUERY
 
--------------------------------------------------*/
+---------------------------------------*/
 
 
-/* -------- 1. GENERELLE INDSTILLINGER -------*/
+/* ------- 1. GENERELLE INDSTILLINGER -------*/
 
 * {
     box-sizing: border-box;
@@ -27,7 +26,7 @@ footer {
     color: #ffc2cc;
 }
 
-/* -----------  2. NAVIGATION & BURGER/MENU -----------*/
+/* ----- 2. NAVIGATION & BURGER/MENU --------*/
 
 .hidden {
     transform: translateX(-100%);
@@ -62,23 +61,7 @@ a:hover {
 
 }
 
-@media only screen and (min-width: 600px) {
-
-    #menuknap {
-        display: none;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    #menu li {}
-}
-
-
-
-/* ----------- 4. PORTFOLIO --------------*/
+/* ----------- 3. PORTFOLIO --------------*/
 
 
 .sectionwrapper_opgaver {
@@ -102,7 +85,6 @@ a:hover {
     height: 280px;
     border-top: 2px solid black;
     position: relative;
-
 }
 
 .collapsible img {
@@ -134,7 +116,7 @@ figure img {
 }
 
 
-/* ----------- 5. TEKST & FONTE --------------*/
+/* --------- 4. TEKST & FONTE --------------*/
 
 
 h1 {
@@ -159,16 +141,8 @@ h3 {
 h4 {
     font-size: 1.2rem;
     font-family: 'VT323';
-
-
 }
 
-h6 {
-    font-family: 'Pragati Narrow';
-    font-size: 1.3rem;
-    line-height: 0;
-    color: #ffc2cc;
-}
 
 a {
     font-family: 'Pragati Narrow';
@@ -177,7 +151,22 @@ a {
     color: black;
 }
 
+/* ----------- 5. MEDIAQUERY --------------*/
+
 @media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {}
+
+
     .collapsible {
         background-color: #f7f3f0;
         padding: 15px 15px 0px 15px;
@@ -244,19 +233,8 @@ a {
         left: 800px;
     }
 
-    h6 {
-        font-family: 'Pragati Narrow';
-        font-size: 1.3rem;
-        line-height: 0;
-        color: #ffc2cc;
-    }
 
-    a {
-        font-family: 'Pragati Narrow';
-        text-decoration: none;
-        font-size: 1.2rem;
-        color: black;
-    }
+
 
 
 }
