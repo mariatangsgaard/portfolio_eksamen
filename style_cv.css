@@ -88,7 +88,13 @@ a:hover {
     position: relative;
     left: 400px;
     width: 900px;
+    padding: 2px 0px 10px 0px;
 }
+
+.collapsible img {
+    cursor: pointer;
+}
+
 
 .content {
     display: none;
@@ -96,8 +102,9 @@ a:hover {
 
 .container_uddannelse {
     position: relative;
-    height: 220px;
+    height: 100px;
     left: 385px;
+    width: 900px;
     border-top: 2px solid black;
     margin: 10px 10px 10px 15px;
 
@@ -116,26 +123,33 @@ a:hover {
 
 h1 {
     font-family: 'Pragati Narrow';
+    font-size: 14rem;
+    margin: 0px;
+    position: relative;
+    left: 400px;
+    line-height: 200px;
+
 }
 
 h2 {
     font-family: 'Pragati Narrow';
-    font-size: 2.5rem;
+    font-size: 3rem;
     line-height: 0;
 }
 
 h3 {
     font-family: 'Pragati Narrow';
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     margin: 0px;
     line-height: 0;
+    font-weight: 700;
 }
 
 h4 {
     font-size: 1.2rem;
     font-family: 'VT323';
     position: relative;
-    left: 820px;
+    left: 700px;
     margin: 0px;
 }
 
@@ -143,6 +157,8 @@ h5 {
     font-family: 'Pragati Narrow';
     font-size: 2rem;
     margin: 5px 0px 0px 0px;
+    font-weight: 100;
+    color: #ffc2cc;
 
 }
 
