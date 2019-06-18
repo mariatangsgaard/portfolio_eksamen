@@ -22,7 +22,6 @@ body {
 
 
 /* ----  2. NAVIGATION & BURGER/MENU -------*/
-
 .hidden {
     transform: translateX(-100%);
     opacity: 0;
