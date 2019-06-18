@@ -1,0 +1,175 @@
+/* -------- INDHOLDS FORTEGNELSE -----------
+
+1. GENERELLE INDSTILLINGER
+2. NAVIGATION & BURGER/MENU
+3. FORSIDE
+4. MEDIAQUERY
+
+--------------------------------------------*/
+
+
+/* ------ 1 GENRELLE INDSTILLINGER --------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7f3f0;
+    max-height: 900px;
+    margin: 0;
+}
+
+
+/* ----  2. NAVIGATION & BURGER/MENU -------*/
+
+.hidden {
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+#menuknap {
+    display: inline-block;
+    color: #ffc2cc;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 15px;
+
+}
+
+#menu {
+    list-style-type: none;
+    transition: transform .3s;
+    transform-origin: top left;
+}
+
+nav a {
+    font-family: 'Pragati Narrow';
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
+
+a:hover {
+    color: #ffc2cc;
+
+}
+
+@media only screen and (min-width: 600px) {
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu li {}
+}
+
+
+/* ----  3. FORSIDE -------*/
+
+
+h1 {
+    font-family: 'Pragati Narrow';
+    color: black;
+    font-size: 14rem;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+h6 {
+    font-family: 'Pragati Narrow';
+    font-size: 1.3rem;
+    line-height: 0;
+    color: #ffc2cc;
+}
+
+.row1 {
+    position: relative;
+    line-height: 10px;
+    top: 80px;
+}
+
+.row2 {
+    position: relative;
+    line-height: 450px;
+    left: 105px;
+    height: 380px;
+
+}
+
+.row3 {
+    position: relative;
+    left: 100px;
+    top: 0px;
+    line-height: 0;
+}
+
+.row4 {
+    position: relative;
+    line-height: 300px;
+}
+
+.row5 {
+    position: relative;
+    line-height: 10px;
+
+}
+
+.row6 {
+    position: relative;
+    line-height: 200px;
+    top: 40px;
+    left: 10px;
+
+}
+
+/* ----  4. MEDIAQUERY -------*/
+
+@media only screen and (min-width: 600px) {
+    #overskrift {
+        flex-wrap: wrap;
+    }
+
+    .row1 {
+        position: relative;
+        line-height: 0px;
+        left: 600px;
+    }
+
+    .row2 {
+        position: relative;
+        line-height: 460px;
+        left: 750px;
+    }
+
+    .row3 {
+        position: relative;
+        line-height: 0px;
+        left: 670px;
+    }
+
+    .row4 {
+        position: relative;
+        line-height: 180px;
+        left: 800px;
+    }
+
+    .row5 {
+        position: relative;
+        line-height: 125px;
+        left: 530px;
+    }
+
+    .row6 {
+        position: relative;
+        line-height: 90px;
+        left: 1100px;
+        margin: 0px;
+    }
+}
