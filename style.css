@@ -17,7 +17,6 @@
 
 body {
     background-color: #f7f3f0;
-    height: 2000px;
     margin: 0;
 }
 
@@ -87,14 +86,17 @@ a:hover {
     position: relative;
 }
 
-.collapsible img {
+
+.box {
     cursor: pointer;
+
 }
 
 figure {
     position: absolute;
     top: 0;
     left: 200px;
+
 }
 
 figure img {
@@ -155,6 +157,10 @@ a {
 
 @media only screen and (min-width: 600px) {
 
+    body {
+        max-width: 1400px;
+    }
+
     #menuknap {
         display: none;
     }
@@ -178,9 +184,10 @@ a {
         left: 400px;
     }
 
-    .collapsible img {
+    .box {
         cursor: pointer;
     }
+
 
     figure {
         position: absolute;
@@ -207,9 +214,13 @@ a {
         left: 400px;
     }
 
-    h1 {
+    .sectionwrapper_opgaver h1 {
         font-family: 'Pragati Narrow';
-        font-size: 5rem;
+        font-size: 14rem;
+        position: relative;
+        left: 400px;
+        line-height: 160px;
+
     }
 
 
@@ -217,6 +228,7 @@ a {
         font-size: 4.3rem;
         font-family: 'Pragati Narrow';
         line-height: 0;
+
     }
 
     h3 {
@@ -229,8 +241,9 @@ a {
     h4 {
         font-size: 1.2rem;
         font-family: 'VT323';
-        position: relative;
+        position: absolute;
         left: 800px;
+        top: 5px;
     }
 
 
