@@ -39,6 +39,9 @@ footer {
     display: inline-block;
     color: #ffc2cc;
     cursor: pointer;
+    position: relative;
+    left: 20px;
+    top: 15px;
 
 }
 
@@ -169,8 +172,6 @@ a:hover {
         line-height: 90px;
         left: 1100px;
         margin: 0px;
-
-
     }
 
 }
