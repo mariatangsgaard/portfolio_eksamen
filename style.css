@@ -198,3 +198,10 @@ h4 {
     position: relative;
     left: 800px;
 }
+
+a {
+    font-family: 'Pragati Narrow';
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+}
