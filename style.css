@@ -31,8 +31,6 @@ footer {
 /* -----------  2. NAVIGATION & BURGER/MENU -----------*/
 
 .hidden {
-    /*    display: none;*/
-    /*    transform: scale(0);*/
     transform: translateX(-100%);
     opacity: 0;
 }
@@ -92,35 +90,90 @@ a:hover {
 
 .row1 {
     position: relative;
-    line-height: 5px;
-    left: 600px;
+    line-height: 10px;
+    top: 80px;
 }
 
 .row2 {
     position: relative;
-    line-height: 290px;
-    left: 780px;
+    line-height: 450px;
+    left: 105px;
+    height: 380px;
+
 }
 
 .row3 {
     position: relative;
-    line-height: 0px;
-    left: 670px;
+    left: 100px;
+    top: 0px;
+    line-height: 0;
 }
 
 .row4 {
     position: relative;
-    line-height: 180px;
-    left: 800px;
+    line-height: 300px;
 }
-
 
 .row5 {
     position: relative;
-    line-height: 120px;
-    left: 530px;
+    line-height: 10px;
+
 }
 
+.row6 {
+    position: relative;
+    line-height: 200px;
+    top: 40px;
+    left: 10px;
+
+}
+
+@media only screen and (min-width: 600px) {
+    #overskrift {
+        flex-wrap: wrap;
+    }
+
+    .row1 {
+        position: relative;
+        line-height: 0px;
+        left: 600px;
+    }
+
+    .row2 {
+        position: relative;
+        line-height: 460px;
+        left: 750px;
+    }
+
+    .row3 {
+        position: relative;
+        line-height: 0px;
+        left: 670px;
+    }
+
+    .row4 {
+        position: relative;
+        line-height: 180px;
+        left: 800px;
+    }
+
+
+    .row5 {
+        position: relative;
+        line-height: 125px;
+        left: 530px;
+    }
+
+    .row6 {
+        position: relative;
+        line-height: 90px;
+        left: 1100px;
+        margin: 0px;
+
+
+    }
+
+}
 
 /* ----------- 4. PORTFOLIO --------------*/
 
@@ -197,6 +250,13 @@ h4 {
     font-family: 'VT323';
     position: relative;
     left: 800px;
+}
+
+h6 {
+    font-family: 'Pragati Narrow';
+    font-size: 1.3rem;
+    line-height: 0;
+    color: #ffc2cc;
 }
 
 a {
