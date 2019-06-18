@@ -35,7 +35,6 @@ body {
     position: relative;
     left: 20px;
     top: 15px;
-
 }
 
 #menu {
@@ -49,6 +48,7 @@ nav a {
     text-decoration: none;
     font-size: 1.2rem;
     color: black;
+    cursor: pointer;
 }
 
 a:hover {
@@ -130,6 +130,14 @@ h6 {
 
     #menu li {}
 
+    #menu li:hover {
+        color: #ffc2cc;
+        cursor: pointer;
+    }
+
+    nav a:hover {
+        color: #ffc2cc;
+    }
 
     #overskrift {
         flex-wrap: wrap;

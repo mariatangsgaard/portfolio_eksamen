@@ -213,89 +213,89 @@ figure img {
     }
 
     #menu li {}
-}
 
-#menu li:hover {
-    color: #ffc2cc;
-    cursor: pointer;
-}
+    #menu li:hover {
+        color: #ffc2cc;
+        cursor: pointer;
+    }
 
-nav a:hover {
-    color: #ffc2cc;
-}
+    nav a:hover {
+        color: #ffc2cc;
+    }
 
-#cv {
-    background-color: #f7f3f0;
-    width: 100%;
-    height: 800px;
-}
+    #cv {
+        background-color: #f7f3f0;
+        width: 100%;
+        height: 800px;
+    }
 
-.collapsible {
-    border-top: 2px solid black;
-    position: relative;
-    left: 400px;
-    width: 900px;
-    padding: 2px 0px 10px 0px;
-    margin: 0px;
-}
+    .collapsible {
+        border-top: 2px solid black;
+        position: relative;
+        left: 400px;
+        width: 900px;
+        padding: 2px 0px 10px 0px;
+        margin: 0px;
+    }
 
-.content {
-    display: none;
-}
-
-
-.container_uddannelse {
-    position: relative;
-    height: 100px;
-    left: 385px;
-    width: 900px;
-    border-top: 2px solid black;
-    margin: 10px 10px 10px 15px;
-}
-
-.container {
-    position: relative;
-    left: 385px;
-    height: 200px;
-    width: 900px;
-    border-top: 2px solid black;
-    margin: 10px 10px 10px 15px;
-}
+    .content {
+        display: none;
+    }
 
 
-#cv h1 {
-    font-size: 14rem;
-    margin: 0px;
-    position: relative;
-    left: 400px;
-    line-height: 200px;
-}
+    .container_uddannelse {
+        position: relative;
+        height: 100px;
+        left: 385px;
+        width: 900px;
+        border-top: 2px solid black;
+        margin: 10px 10px 10px 15px;
+    }
 
-h4 {
-    position: relative;
-    left: 700px;
-}
+    .container {
+        position: relative;
+        left: 385px;
+        height: 200px;
+        width: 900px;
+        border-top: 2px solid black;
+        margin: 10px 10px 10px 15px;
+    }
 
-figure {
-    position: relative;
-    left: 370px;
-    top: 20px;
-}
 
-#kontakt h1 {
-    font-size: 14rem;
-    position: relative;
-    left: 400px;
-}
+    #cv h1 {
+        font-size: 14rem;
+        margin: 0px;
+        position: relative;
+        left: 400px;
+        line-height: 200px;
+    }
 
-#kontakt h2 {
-    position: relative;
-    left: 700px;
+    h4 {
+        position: relative;
+        left: 700px;
+    }
 
-}
+    figure {
+        position: relative;
+        left: 370px;
+        top: 20px;
+    }
 
-#kontakt h3 {
-    position: relative;
-    left: 700px;
+    #kontakt h1 {
+        font-size: 14rem;
+        position: relative;
+        left: 400px;
+    }
 
+    #kontakt h2 {
+        position: relative;
+        left: 700px;
+
+    }
+
+    #kontakt h3 {
+        position: relative;
+        left: 700px;
+
+    }
 }
