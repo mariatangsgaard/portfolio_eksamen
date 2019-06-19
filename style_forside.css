@@ -8,7 +8,7 @@
 --------------------------------------------*/
 
 
-/* ------ 1 GENRELLE INDSTILLINGER --------- */
+/* ------ 1. GENRELLE INDSTILLINGER --------- */
 
 * {
     box-sizing: border-box;
@@ -16,12 +16,14 @@
 
 body {
     background-color: #f7f3f0;
-    max-height: 900px;
+    max-width: 500px;
+    max-height: 1000px;
     margin: 0;
 }
 
 
 /* ----  2. NAVIGATION & BURGER/MENU -------*/
+
 .hidden {
     transform: translateX(-100%);
     opacity: 0;
@@ -52,7 +54,6 @@ nav a {
 
 a:hover {
     color: #ffc2cc;
-
 }
 
 
@@ -63,8 +64,6 @@ h1 {
     font-family: 'Pragati Narrow';
     color: black;
     font-size: 14rem;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
 }
 
 h6 {
@@ -77,41 +76,35 @@ h6 {
 .row1 {
     position: relative;
     line-height: 1px;
-    top: 80px;
 }
 
 .row2 {
     position: relative;
-    line-height: 450px;
+    top: -220px;
     left: 105px;
     height: 380px;
-
 }
 
 .row3 {
     position: relative;
     left: 100px;
-    top: 0px;
-    line-height: 0;
+    top: -630px;
 }
 
 .row4 {
     position: relative;
-    line-height: 300px;
+    top: -1040px;
 }
 
 .row5 {
     position: relative;
-    line-height: 10px;
-
+    top: -1450px;
 }
 
 .row6 {
     position: relative;
-    line-height: 200px;
-    top: 40px;
+    top: -1700px;
     left: 10px;
-
 }
 
 /* ----  4. MEDIAQUERY -------*/
@@ -127,55 +120,49 @@ h6 {
         opacity: 1;
     }
 
-    #menu li {}
-
-    #menu li:hover {
-        color: #ffc2cc;
-        cursor: pointer;
+    body {
+        width: auto;
+        height: 100%;
     }
 
-    nav a:hover {
-        color: #ffc2cc;
-    }
 
-    #overskrift {
-        flex-wrap: wrap;
+    h1 {
+        margin-top: 30px;
     }
 
     .row1 {
         position: relative;
-        line-height: 0px;
-        left: 600px;
+        left: 535px;
     }
 
     .row2 {
         position: relative;
-        line-height: 460px;
-        left: 750px;
+        line-height: 380px;
+        left: 700px;
     }
 
     .row3 {
         position: relative;
-        line-height: 0px;
-        left: 670px;
+        line-height: 580px;
+        left: 600px;
     }
 
     .row4 {
         position: relative;
-        line-height: 180px;
-        left: 800px;
+        line-height: 70px;
+        left: 730px;
     }
 
     .row5 {
         position: relative;
-        line-height: 125px;
-        left: 530px;
+        line-height: 690px;
+        left: 460px;
     }
 
     .row6 {
         position: relative;
-        line-height: 90px;
-        left: 1100px;
+        left: 980px;
         margin: 0px;
+        top: -1917px;
     }
 }
