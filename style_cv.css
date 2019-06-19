@@ -71,7 +71,9 @@ h1 {
     margin: 0px;
     position: relative;
     left: 400px;
-    line-height: 200px;
+    top: 15px;
+    line-height: 300px;
+
 
 }
 
@@ -129,6 +131,7 @@ a {
 
 #cv h1 {
     left: 10px;
+    margin top: 0px;
 }
 
 .collapsible {
@@ -175,6 +178,12 @@ figure img {
     height: 320px;
 }
 
+figure {
+    position: relative;
+    top: -60px;
+    left: 60px;
+}
+
 #kontakt h1 {
     position: relative;
     left: 10px;
@@ -183,7 +192,7 @@ figure img {
 
 #kontakt h2 {
     position: relative;
-    left: 10px;
+    left: 30px;
     padding: 5px;
     font-size: 2.5rem;
 
@@ -191,7 +200,7 @@ figure img {
 
 #kontakt h3 {
     position: relative;
-    left: 10px;
+    left: 140px;
     padding: 5px;
     padding-bottom: 50px;
 }
@@ -246,7 +255,7 @@ figure img {
     .container {
         position: relative;
         left: 385px;
-        height: 400px;
+        height: 220px;
         width: 900px;
         border-top: 2px solid black;
         margin: 10px 10px 10px 15px;
@@ -271,6 +280,7 @@ figure img {
         position: relative;
         left: 600px;
         width: 280px;
+        margin-top: 80px;
     }
 
     #kontakt {
@@ -281,6 +291,7 @@ figure img {
         position: relative;
         font-size: 14rem;
         left: 400px;
+        top: 30px;
     }
 
     #kontakt h2 {
