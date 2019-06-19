@@ -76,9 +76,11 @@ a:hover {
     font-size: 7rem;
     margin: 0px;
     font-weight: 900;
-    line-height: 80px;
+    line-height: 90px;
     position: relative;
     left: 10px;
+    top: 30px;
+    padding: 0px 0px 20px 0px;
 }
 
 .collapsible {
@@ -136,7 +138,6 @@ h2 {
     font-size: 3rem;
     font-family: 'Pragati Narrow';
     line-height: 0;
-
 }
 
 h3 {
@@ -233,7 +234,6 @@ a {
         position: relative;
         left: 400px;
         line-height: 160px;
-
     }
 
 
